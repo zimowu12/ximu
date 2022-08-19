@@ -1,53 +1,64 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="This is Zimo's personal portfolio website. It contains her artworks and coding works.">
-        <title>Zimo's Website</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <div class="choice">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="hero">
+            <video autoplay loop muted plays-inline class="black-video">
+                <source src="images/6.26-0.mp4" type="video/mp4">
+            </video>
+    
             <nav>
-                <img src="logo.png" width=10% alt="logo"/>
+                <img src="images/logo.png" class="logo">
                 <ul>
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">PROJECTS</a></li>
+                    <li><a href="#">CONTACT</a></li>
                 </ul>
             </nav>
-            <div class="detel"> 
-                <h1>I'm Zimo <span>Wu</span></h1>
-                <p>This is my official portfolio website.</p>
-                <a href="#">DOWNLOAD CV</a>
+            <div class="content">
+                <h1>Zimo Wu</h1>
+                <a href="https://docs.google.com/document/d/1rEOxAAIAsfjcWpSHGNpjlU4kUMaQymKxXYmW3FdQL74/edit?usp=sharing">See My Resume</a>
             </div>
-            <div class="images">
-                <img src="photography/cover.jpeg" class="shape">
-                
-                
-            </div>
-        </div>
-        <div>
-            <p><h3>About this site</h3></p>
-            <p>This website is my personal website. It contains all my previous works such as school projects
-                and out-of-curriculum works. To make it a better experience for you, please choose the following options
-                that best describes you.
-            </p>
-            <p><h3>About Me</h3></p>
-            <p>My name is Zimo Wu. I am a fourth year Computer Science student at Queen's University. 
+    </section>
+
+    <section class="about">
+        <h1>About Me</h1>
+        <p>My name is Zimo Wu. I am a fourth year Computer Science student at Queen's University. 
                 I came to Canada five years ago. I like playing video games as well as making them! I 
                 am currently working on the game <i>Teddy Teddy</i>, which is a 2D platformer. Compare 
                 to previous games I made in school projects, creating my own game is super excited!
                 Meanwhile, I am also interested in many other areas. I enjoy drawing and painting; I 
                 edit videos and shot short films or vlogs in my spare time. I like recording my life, 
-                so I am also good at taking pictures.
-                </p>
-        </div>
+                so I am also good at taking pictures.</p>
         
-        <footer>
-            <h4>Contact Me</h4>
-            <p>Phone Number: 6139139362</p>
-            <p>Email Address: zimoyuhu@gmail.com</p>
+    </section>
+    <section class="choose">
+        
+        <h1>Artist.</h1>
+        <h1>Programmer.</h1>
+        <h1>Designer</h1>
+        <div class="img-box"></div>
+        
+        
+    </section>
 
-        </footer>
-    </body>
+    <section class="projects">
+        <a href="depression.html">
+            <img width="480"src="images/sunset.jpeg" alt="Game UI">
+        </a>
+        <a href="elderwood.html">
+            <img width="480" src="images/european.jpg" alt="Procreate drawing">
+        </a>
+        <a href="pipes.html">
+            <img width="480" src="images/tree.jpeg" alt="Christmas">
+        </a>
+    </section>
+</body>
 </html>

@@ -68,23 +68,6 @@ span{
 }
 
 .images{
-    width: 45%;
-    height: 80%;
+    width: 30%;
     position: absolute;
-    bottom: 0;
-    right: 300px;
-}
-
-.images img{
-    height: 100%;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    transition: bottom is, left is;
-}
-
-
-.images:hover .girl{
-    left: 65%;
 }
